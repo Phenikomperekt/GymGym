@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D625E7280E723300E72561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D625E6280E723300E72561 /* AppDelegate.swift */; };
+		A2D625E9280E723300E72561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D625E8280E723300E72561 /* SceneDelegate.swift */; };
+		A2D625F0280E723500E72561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D625EF280E723500E72561 /* Assets.xcassets */; };
+		A2D625FB280E747900E72561 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D625FA280E747900E72561 /* MainTabBar.swift */; };
+		A2D625FD280EA7A200E72561 /* FirstWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D625FC280EA7A200E72561 /* FirstWeekViewController.swift */; };
+		A2D625FF280EA7BB00E72561 /* SecondWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D625FE280EA7BB00E72561 /* SecondWeekViewController.swift */; };
+		A2D62601280EA7D200E72561 /* ThirdWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D62600280EA7D200E72561 /* ThirdWeekViewController.swift */; };
+		A2D62603280EA7E100E72561 /* FourthWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D62602280EA7E100E72561 /* FourthWeekViewController.swift */; };
+		A2D62605280EA7F100E72561 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D62604280EA7F100E72561 /* SetupViewController.swift */; };
+		A2D62608280EBAF700E72561 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D62607280EBAF700E72561 /* model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2D625E3280E723300E72561 /* GymGym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymGym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D625E6280E723300E72561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D625E8280E723300E72561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2D625EF280E723500E72561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D625F4280E723500E72561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D625FA280E747900E72561 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		A2D625FC280EA7A200E72561 /* FirstWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWeekViewController.swift; sourceTree = "<group>"; };
+		A2D625FE280EA7BB00E72561 /* SecondWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWeekViewController.swift; sourceTree = "<group>"; };
+		A2D62600280EA7D200E72561 /* ThirdWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdWeekViewController.swift; sourceTree = "<group>"; };
+		A2D62602280EA7E100E72561 /* FourthWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthWeekViewController.swift; sourceTree = "<group>"; };
+		A2D62604280EA7F100E72561 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		A2D62607280EBAF700E72561 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D625E0280E723300E72561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D625DA280E723300E72561 = {
+			isa = PBXGroup;
+			children = (
+				A2D625E5280E723300E72561 /* GymGym */,
+				A2D625E4280E723300E72561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D625E4280E723300E72561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D625E3280E723300E72561 /* GymGym.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D625E5280E723300E72561 /* GymGym */ = {
+			isa = PBXGroup;
+			children = (
+				A2D625E6280E723300E72561 /* AppDelegate.swift */,
+				A2D625E8280E723300E72561 /* SceneDelegate.swift */,
+				A2D625FA280E747900E72561 /* MainTabBar.swift */,
+				A2D62606280EA7FA00E72561 /* Pages */,
+				A2D625EF280E723500E72561 /* Assets.xcassets */,
+				A2D62607280EBAF700E72561 /* model.swift */,
+				A2D625F4280E723500E72561 /* Info.plist */,
+			);
+			path = GymGym;
+			sourceTree = "<group>";
+		};
+		A2D62606280EA7FA00E72561 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				A2D625FC280EA7A200E72561 /* FirstWeekViewController.swift */,
+				A2D625FE280EA7BB00E72561 /* SecondWeekViewController.swift */,
+				A2D62600280EA7D200E72561 /* ThirdWeekViewController.swift */,
+				A2D62602280EA7E100E72561 /* FourthWeekViewController.swift */,
+				A2D62604280EA7F100E72561 /* SetupViewController.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D625E2280E723300E72561 /* GymGym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D625F7280E723500E72561 /* Build configuration list for PBXNativeTarget "GymGym" */;
+			buildPhases = (
+				A2D625DF280E723300E72561 /* Sources */,
+				A2D625E0280E723300E72561 /* Frameworks */,
+				A2D625E1280E723300E72561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymGym;
+			productName = GymGym;
+			productReference = A2D625E3280E723300E72561 /* GymGym.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D625DB280E723300E72561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A2D625E2280E723300E72561 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A2D625DE280E723300E72561 /* Build configuration list for PBXProject "GymGym" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = A2D625DA280E723300E72561;
+			productRefGroup = A2D625E4280E723300E72561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D625E2280E723300E72561 /* GymGym */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D625E1280E723300E72561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D625F0280E723500E72561 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D625DF280E723300E72561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D62601280EA7D200E72561 /* ThirdWeekViewController.swift in Sources */,
+				A2D625FF280EA7BB00E72561 /* SecondWeekViewController.swift in Sources */,
+				A2D625FB280E747900E72561 /* MainTabBar.swift in Sources */,
+				A2D62603280EA7E100E72561 /* FourthWeekViewController.swift in Sources */,
+				A2D62605280EA7F100E72561 /* SetupViewController.swift in Sources */,
+				A2D625E7280E723300E72561 /* AppDelegate.swift in Sources */,
+				A2D625E9280E723300E72561 /* SceneDelegate.swift in Sources */,
+				A2D62608280EBAF700E72561 /* model.swift in Sources */,
+				A2D625FD280EA7A200E72561 /* FirstWeekViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2D625F5280E723500E72561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2D625F6280E723500E72561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D625F8280E723500E72561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQ9ZSG2RQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GymGym/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = MainTabBar;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mastepan.GymGym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2D625F9280E723500E72561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQ9ZSG2RQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GymGym/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = MainTabBar;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mastepan.GymGym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D625DE280E723300E72561 /* Build configuration list for PBXProject "GymGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D625F5280E723500E72561 /* Debug */,
+				A2D625F6280E723500E72561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D625F7280E723500E72561 /* Build configuration list for PBXNativeTarget "GymGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D625F8280E723500E72561 /* Debug */,
+				A2D625F9280E723500E72561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D625DB280E723300E72561 /* Project object */;
+}
